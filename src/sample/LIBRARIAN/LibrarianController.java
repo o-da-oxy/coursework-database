@@ -10,9 +10,6 @@ public class LibrarianController {
     private Button booksList;
 
     @FXML
-    private Button signUpBooks;
-
-    @FXML
     private Button usersBooks;
 
     @FXML
@@ -23,11 +20,6 @@ public class LibrarianController {
         booksList.setOnAction(event ->{
             OpenNewScene newScene = new OpenNewScene();
             newScene.openWindow(booksList, "/sample/LIBRARIAN/Books.fxml");
-        });
-
-        signUpBooks.setOnAction(event ->{
-            OpenNewScene newScene = new OpenNewScene();
-            newScene.openWindow(signUpBooks, "/sample/LIBRARIAN/Books.fxml");
         });
 
         usersBooks.setOnAction(event ->{

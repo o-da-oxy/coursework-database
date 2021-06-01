@@ -24,7 +24,7 @@ public class AdminController {
 
         signUpUsers.setOnAction(event ->{
             OpenNewScene newScene = new OpenNewScene();
-            newScene.openWindow(signUpUsers, "/sample/SignUp/signUp.fxml");
+            newScene.openWindow(signUpUsers, "/sample/ADMIN/AdminRegister.fxml");
         });
 
         exit.setOnAction(event ->{

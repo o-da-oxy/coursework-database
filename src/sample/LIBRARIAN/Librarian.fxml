@@ -11,17 +11,12 @@
       <AnchorPane layoutX="93.0" layoutY="87.0" prefHeight="247.0" prefWidth="513.0" style="-fx-background-color: #AFEEEE;">
          <children>
             <Text layoutX="73.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вы вошли в систему под учетной записью работника библиотеки!" />
-            <Button fx:id="booksList" layoutX="96.0" layoutY="47.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="321.0" text="Просмотр списка книг">
+            <Button fx:id="booksList" layoutX="96.0" layoutY="59.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="321.0" text="Просмотр списка книг">
                <font>
                   <Font name="Monospaced Regular" size="13.0" />
                </font>
             </Button>
-            <Button fx:id="signUpBooks" layoutX="95.0" layoutY="148.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="321.0" text="Добавить новые книги">
-               <font>
-                  <Font name="Monospaced Regular" size="13.0" />
-               </font>
-            </Button>
-            <Button fx:id="usersBooks" layoutX="95.0" layoutY="97.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="321.0" text="Книги у читателей">
+            <Button fx:id="usersBooks" layoutX="95.0" layoutY="106.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="321.0" text="Книги у читателей">
                <font>
                   <Font name="Monospaced Regular" size="13.0" />
                </font>
