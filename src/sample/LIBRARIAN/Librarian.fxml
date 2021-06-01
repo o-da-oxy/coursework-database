@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #E0FFFF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LIBRARIAN.LibrarianController">
+   <children>
+      <AnchorPane layoutX="93.0" layoutY="87.0" prefHeight="247.0" prefWidth="513.0" style="-fx-background-color: #AFEEEE;">
+         <children>
+            <Text layoutX="73.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вы вошли в систему под учетной записью работника библиотеки!" />
+            <Button fx:id="booksList" layoutX="96.0" layoutY="47.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="321.0" text="Просмотр списка книг">
+               <font>
+                  <Font name="Monospaced Regular" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="signUpBooks" layoutX="95.0" layoutY="148.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="321.0" text="Добавить новые книги">
+               <font>
+                  <Font name="Monospaced Regular" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="usersBooks" layoutX="95.0" layoutY="97.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="321.0" text="Книги у читателей">
+               <font>
+                  <Font name="Monospaced Regular" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" layoutX="415.0" layoutY="197.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="83.0" text="Выход">
+               <font>
+                  <Font name="Monospaced Regular" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="293.0" layoutY="14.0" prefHeight="73.0" prefWidth="113.0" text="Library">
+         <font>
+            <Font name="System Italic" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
